@@ -1,0 +1,159 @@
+:root {
+	--fonte-titulo: 'Krona One', sans serif;
+	--fonte-texto: 'Montserrat', sans serif;
+
+};
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cabecalho {
+	padding: 2% 0% 0% 15%;
+	text-decoration: none;
+}
+
+.cabecalho__menu {
+	text-decoration: none;
+	display: flex;
+	gap: 80px;
+}
+
+.cabecalho__link {
+	font-family: var(--fonte-texto);
+	font-weight: 600;
+	font-size: 24px;
+	color: #22D4FD;
+	text-decoration: none;
+
+}
+
+body {
+	box-sizing: border-box;
+	background-color: #000000;
+	color: #EDE4E0;
+	
+}
+
+
+.apresentacao {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5% 15%;
+	gap: 82px;
+}
+
+.apresentacao__conteudo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+}
+
+.apresentacao__titulo {
+	font-size: 36px;
+	font-family: var(--fonte-titulo);
+	
+}
+
+.titulo__destaque {
+	color: #22D4FD;
+}
+
+.apresentacao__texto {
+	font-size: 24px;
+	font-family: var(--fonte-texto);
+	
+
+}
+
+.apresentacao__subtitulo {
+	font-family: var(--fonte-titulo);
+	font-size: 24px;
+	font-weight: 400;
+	
+}
+
+.apresentacao__links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+	justify-content: space-between;
+}
+
+.apresentacao__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	font-size: 24px;
+	padding: 21.5px 0;
+	text-decoration: none;
+	color: #F6F6F6;
+	font-family: var(--fonte-texto);
+	font-weight: 600;
+	border: 2px solid #22D4FD;
+
+}
+
+
+.apresentacao__link:hover {
+	background-color: #272727; 
+	padding: 3%;
+}
+
+.rodape {
+	color: #000000;
+	background-color: #22D4FD;
+	padding: 24px;
+	text-align: center;
+	font-family: var(--fonte-texto);
+	font-size: 24px; 
+	font-weight: 400;
+}
+
+.imagem {
+	border-radius: 12px;
+	width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.cabecalho {
+		padding: 10%
+	}
+
+	.cabecalho__menu {
+		text-decoration: none;
+		justify-content: center;
+
+	}
+
+	.apresentacao {
+		flex-direction: column-reverse;
+		padding: 5%;
+	}
+
+	.apresentacao__conteudo {
+		width: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}

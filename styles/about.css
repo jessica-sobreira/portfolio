@@ -1,0 +1,49 @@
+:root {
+	--fonte-titulo: 'Krona One', sans serif;
+	--fonte-texto: 'Montserrat', sans serif;
+
+};
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+
+.cabecalho {
+	padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+	display: flex;
+	gap: 80px;
+}
+
+.cabecalho__link {
+	font-family: var(--fonte-texto);
+	font-weight: 600;
+	font-size: 24px;
+	color: #22D4FD;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.rodape {
+	color: #000000;
+	background-color: #22D4FD;
+	padding: 24px;
+	text-align: center;
+	font-family: var(--fonte-texto);
+	font-size: 24px; 
+	font-weight: 400;
+}
