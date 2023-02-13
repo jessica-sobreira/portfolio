@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/jessica-sobreira/apeperia)
 ![GitHub Org's stars](https://img.shields.io/github/stars/jessica-sobreira/apeperia)
 
-Este portfólio foi desenvolvido na aula "HTML e CSS: trabalhando com responsividade e publicação de projetos HTML e CSS: trabalhando com responsividade e publicação de projetos", ministrado pelo instrutores Guilherme Lima e Rafaella Ballerini. O objetivo foi colocar em prática os conhecimentos transmitidos no curso para o aperfeiçoamento do futuro Desenvolver Front-End.
+Este portfólio foi desenvolvido na aula "HTML e CSS: trabalhando com responsividade e publicação de projetos", ministrado pelo instrutores Guilherme Lima e Rafaella Ballerini. O objetivo foi colocar em prática os conhecimentos transmitidos no curso para o aperfeiçoamento do futuro Desenvolver Front-End.
 
 <h2 align="center"> 
     :construction:  Projeto em construção  :construction:
