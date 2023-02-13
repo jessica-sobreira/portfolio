@@ -1,4 +1,4 @@
-<h1 align ="center">Portffólio</h1>
+<h1 align ="center">Portfólio</h1>
 
 ![portfolio](https://user-images.githubusercontent.com/117686537/218580161-c2d53914-c060-45bf-acde-e0de7ef0e695.png)
 
